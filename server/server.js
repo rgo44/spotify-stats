@@ -19,7 +19,6 @@ app.post('/refresh', (req, res) => {
         clientSecret: process.env.CLIENT_SECRET,
         refreshToken
     })
-    console.log("refresh")
 
     spotifyApi.refreshAccessToken().then(data => {
       res.json({
@@ -51,7 +50,10 @@ app.post('/login', (req, res) => {
     })
 })
 
+app.get('/', (req, res) => {
+    res.send("Spotify API");
+})
 
+const PORT = process.env.PORT || 3001;
 
-
-app.listen(3001);
+app.listen(PORT);
