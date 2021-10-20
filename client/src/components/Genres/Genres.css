@@ -1,0 +1,7 @@
+.genresContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 20px;
+}

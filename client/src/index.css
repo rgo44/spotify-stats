@@ -1,0 +1,14 @@
+html {
+  background-color: #121212;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif, 'Helvetica Neue', Helvetica, Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: sans-serif, 'Helvetica Neue', Helvetica, Arial;
+}

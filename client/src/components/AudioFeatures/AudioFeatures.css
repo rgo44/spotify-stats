@@ -1,0 +1,35 @@
+.audioFeaturesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #171717;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+
+}
+
+.audioFeaturesItems {
+    width: 30vw;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pb {
+    padding-bottom: 6px;
+}
+
+@media screen and (max-width: 600px) {
+    .audioFeaturesContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .audioFeaturesItems {
+        width: 80vw;   
+        margin-top: 5px; 
+        margin-bottom: 5px;  
+        padding: 5px;  
+    }
+}

@@ -1,0 +1,15 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    background-color: #22c55e;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}

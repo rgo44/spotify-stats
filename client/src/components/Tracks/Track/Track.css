@@ -1,0 +1,29 @@
+.topThree {
+    display: flex;
+    justify-content: center;
+}
+
+.albumImage {
+    width: 64px;
+    padding-right: 5px;
+}
+
+.trackInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.topFifty {
+    width: 30vw;
+}
+
+@media screen and (max-width: 600px) {
+    .topThree {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .topFifty {
+        width: 80vw;
+    }
+}
+

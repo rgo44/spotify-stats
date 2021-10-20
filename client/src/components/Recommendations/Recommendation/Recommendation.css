@@ -1,0 +1,27 @@
+.recommendationContainer {
+    background-color: #171717;
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    max-height: 64px;
+}
+
+.image {
+    width: 64px;
+    height: 64px;
+}
+
+.recommendationInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 600px) {
+    .recommendationInfo {
+        visibility: hidden;
+    }
+    .recommendationContainer {
+        width: 64px;
+    }
+}

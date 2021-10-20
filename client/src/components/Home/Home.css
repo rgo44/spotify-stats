@@ -1,0 +1,66 @@
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: white;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.headingWhite {
+    color: white;
+    font-size: medium;
+    font-weight: 900;
+    padding-right: 5px;
+}
+
+.headingGray {
+    color: #555555;
+    font-size: medium;
+    font-weight: 900;
+    padding-right: 5px;
+}
+
+.subheadingWhite {
+    color: white;
+    font-size: small;
+    font-weight: 550;
+    padding-right: 5px;
+}
+
+.subheadingGray {
+    color: #555555;
+    font-size: small;
+    font-weight: 550;
+    padding-right: 5px;
+}
+
+.bodyWhite {
+    color: white;
+    font-size: x-small;
+    font-weight: 550;
+}
+
+.bodyGray {
+    color: #555555;
+    font-size: x-small;
+    font-weight: 550;
+}
+
+.barInfo {
+    display: flex;
+    align-items: center;
+}
+
+.homeContainer {
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .titleContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}

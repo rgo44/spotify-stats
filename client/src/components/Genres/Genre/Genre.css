@@ -1,0 +1,10 @@
+.genreContainer {
+    padding-bottom: 12px;
+    width: 50vw;
+}
+
+@media screen and (max-width: 600px) {
+    .genreContainer {
+        width: 80vw;
+    }
+}

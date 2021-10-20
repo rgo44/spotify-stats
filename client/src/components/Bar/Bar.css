@@ -1,0 +1,24 @@
+.bar {
+    height: 10px;
+    border-radius: 10px;
+    margin-right: 3px;
+}
+
+.highlight {
+    background: #22c55e;
+    position: absolute;
+    z-index: 1;
+}
+
+.total {
+    background: #555555;
+    position: relative;
+}
+
+.pop {
+    height: 50px;
+}
+
+.gd {
+    height: 20px;
+}

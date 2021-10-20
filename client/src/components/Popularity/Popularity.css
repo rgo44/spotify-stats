@@ -1,0 +1,49 @@
+.popularityCategories {
+    display: flex;
+    padding: 5px 0 5px 0;
+}
+
+.popularityCategory {
+    background-color:#171717;
+    width: 45vw;
+    padding: 20px 12px 20px 12px;
+    margin: 6px 6px 6px 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.popularTracker {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.popularity {
+    margin-right: 50px;
+}
+
+.popularityAvg {
+    padding-bottom: 12px;
+}
+
+.popularityContainer {
+    padding-bottom: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    .popularityCategories {
+        display: flex;
+        flex-direction: column;
+    }
+    .popularTracker {
+        display: flex;
+        flex-direction: column;
+    }
+    .popularityCategory {
+        width: 80vw;
+    }
+    .popularity {
+        padding-bottom: 6px;
+    }
+}
